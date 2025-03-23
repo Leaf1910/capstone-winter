@@ -10,7 +10,7 @@ from email.mime.application import MIMEApplication
 
 client = InferenceHTTPClient(
     api_url="http://localhost:9001", # use local inference server
-    api_key="07MTHAw4YHEU2802oGx7"
+    api_key="//not mentioned due to privacy reasons//"
 )
 
 result = client.run_workflow(
